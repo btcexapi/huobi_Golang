@@ -17,4 +17,4 @@ var MinIncrease = decimal.NewFromFloat(0.15)
 var MaxIncrease = decimal.NewFromFloat(0.3)
 
 //购买多少usdt的币
-var Utotal = 3000.0
+var Utotal = 100.0

@@ -21,6 +21,7 @@ import (
 //var utotal = 3000.0
 
 func Buy() {
+	applogger.Info("start buy")
 	//幂等，保证某种币只买一次
 	idempotence := make(map[string]struct{})
 	symbolMap := make(map[string]common.Symbol)
